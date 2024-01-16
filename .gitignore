@@ -3,6 +3,7 @@ dt-fpga-vivado-init.cache/*
 dt-fpga-vivado-init.hw/*
 dt-fpga-vivado-init.ip_user_files/*
 dt-fpga-vivado-init.runs/*
+dt-fpga-vivado-init.srcs/**/synth_1/*
 dt-fpga-vivado-init.sim/*
 digilent-xdc-master/*
 
