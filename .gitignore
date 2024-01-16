@@ -6,5 +6,7 @@ dt-fpga-vivado-init.runs/*
 dt-fpga-vivado-init.sim/*
 digilent-xdc-master/*
 
-# do not ignore this file in ignored dir
+# do not ignore these files in an ignored dir
 !digilent-xdc-master/Basys-3-Master.xdc
+!digilent-xdc-master/README.md
+!digilent-xdc-master/License.txt
