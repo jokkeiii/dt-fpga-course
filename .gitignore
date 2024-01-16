@@ -1,0 +1,10 @@
+# ignore these
+dt-fpga-vivado-init.cache/*
+dt-fpga-vivado-init.hw/*
+dt-fpga-vivado-init.ip_user_files/*
+dt-fpga-vivado-init.runs/*
+dt-fpga-vivado-init.sim/*
+digilent-xdc-master/*
+
+# do not ignore this file in ignored dir
+!digilent-xdc-master/Basys-3-Master.xdc
