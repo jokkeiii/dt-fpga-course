@@ -22,14 +22,24 @@
 
 module TOP(
     input wire [3:0] sw,
-    output wire led0,
-    // output wire led1,
-    output wire led2
-    // output wire led3
+    output reg led0,
+    output reg led1,
+    output reg led2
     );
+    
+    always @(sw) begin
+        // reset all LEDs
+        led0 = 0;
+        led1 = 0;
+        led2 = 0;
 
-    assign led0 = sw[0] & sw[1];
-    // assign led1 = sw[1];
-    assign led2 = sw[2] & sw[3];
-    // assign led3 = sw[3];    
+        // conditions
+        if (sw <= 4'b0011) begin
+            led0 = 1;
+        end else if (sw <= 4'b1001 && sw > 4'b0011) begin
+            led1 = 1;
+        end else if (sw <= 4'b1111 && sw > 4'b1001) begin
+            led2 = 1;
+        end
+    end
 endmodule
