@@ -28,6 +28,6 @@ module TOP(
     );
     
     assign led0 = !sw[3] && !sw[2];
-    assign led1 = (sw[3] && sw[2] && sw[1]) || (sw[2] && sw[3]);
+    assign led1 = (sw[3] && !sw[2] && !sw[1]) || (!sw[3] && sw[2]);
     assign led2 = sw[3] && (sw[2] || sw[1]);
 endmodule
