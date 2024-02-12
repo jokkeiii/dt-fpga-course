@@ -1,0 +1,8 @@
+A!BC!D+
+A!BCD+
+AB!C!D+
+AB!CD+
+ABC!D+
+ABCD
+
+A(B+C)

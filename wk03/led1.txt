@@ -1,0 +1,6 @@
+!A!B!C!D+
+!A!B!CD+
+!A!BC!D+
+!A!BCD
+
+!A!B
