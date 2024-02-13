@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 module AndGate_TestBench();
-  reg a, b; // Only reg type variable can be assigned into a state
-  wire y; // Wire is just simple wire
+  reg a, b; // only reg type variable can be assigned into a state
+  wire y; // wire is just simple wire
 
   AndGate dut(a,b,y);
 
