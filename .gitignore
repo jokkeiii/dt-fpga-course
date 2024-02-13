@@ -1,10 +1,10 @@
 # ignore these
-**.cache
-**.hw
-**.ip_user_files
-**.runs
-**.srcs/**/synth_1
-**.sim
+**/*.cache
+**/*.hw
+**/*.ip_user_files
+**/*.runs
+**/*.srcs/**/synth_1
+**/*.sim
 digilent-xdc-master
 
 # do not ignore these files in an ignored dir
