@@ -4,6 +4,7 @@
 **/*.ip_user_files
 **/*.runs
 **/*.srcs/**/synth_1
+**/*.srcs/**/utils_1
 **/*.sim
 digilent-xdc-master
 
