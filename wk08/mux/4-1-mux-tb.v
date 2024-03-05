@@ -44,4 +44,5 @@ module Mux_TestBench();
 
     $finish;
   end
+  
 endmodule

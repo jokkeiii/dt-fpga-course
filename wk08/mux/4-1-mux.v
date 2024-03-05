@@ -20,4 +20,5 @@ assign b = sw[5];
 
 // // 4-1 mux with boolean
 assign led[0] = ~(~(~b & ~a & A) & ~(~b & a & B) & ~(b & ~a & C) & ~(b & a & D));
+
 endmodule
